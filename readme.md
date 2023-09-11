@@ -1,4 +1,5 @@
-tohle je uvod do prg neco
+# super
+//tohle je uvod do prg neco
 
 git add .
 
