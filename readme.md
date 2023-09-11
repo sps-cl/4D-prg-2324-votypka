@@ -1,3 +1,2 @@
 # super
-//tohle je uvod do prg
-//neco
+//tohle je uvod do prg neco
