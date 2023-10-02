@@ -1,12 +1,10 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LibraryApp.models;
 using LibraryApp.exceptions;
-
 
 namespace LibraryApp
 {
@@ -19,38 +17,51 @@ namespace LibraryApp
             items.Add(item);
         }
 
-        public void ListItems()
-        {
-            Console.WriteLine("knihovni predmety: ");
+        public void ListItems() {
+            Console.WriteLine("Knihovní předměty: ");
             foreach (T item in items)
             {
                 item.DisplayInfo();
-
             }
-
         }
-        public void CheckoutItems(int id)
-        {
+
+        public void CheckoutItem(int id) {
             T itemToCheckout = items.Find(item => item.Id == id);
             if (itemToCheckout != null)
             {
                 if (itemToCheckout.IsAvailable)
                 {
                     itemToCheckout.IsAvailable = false;
-                    Console.WriteLine($"vypujčit si knihu  {itemToCheckout.Title}");
-
+                    Console.WriteLine($"Vypůjčil jsem si knížku: {itemToCheckout.Title}");
                 }
                 else
                 {
-                    throw new NotAvailableException($"položka s ID $ {itemToCheckout.Id} nebyla nalezena");
+                    throw new  NotAvailableException($"Položka s ID {itemToCheckout.Id} nebyla nalezena");
                 }
             }
             else
             {
-                throw new NotFoundException();
-
+                throw new NotFoundException($"Položka s ID {itemToCheckout.Id} nebyla nalezena");
             }
+        }
+        public void ReturnItem(int id) {
+            T itemToCheckout = items.Find(item => item.Id == id);
+            if (itemToCheckout != null)
+            {
+                if (itemToCheckout.IsAvailable)
+                {
+                    itemToCheckout.IsAvailable = true;
+                    Console.WriteLine($"Vrátil jsem si knížku: {itemToCheckout.Title}");
+                }
+                else
+                {
+                    throw new NotAvailableException($"Položka s ID {itemToCheckout.Id} nebyla nalezena");
+                }
             }
-
+            else
+            {
+                throw new NotFoundException($"Položka s ID {itemToCheckout.Id} nebyla nalezena");
+            }
         }
     }
+}
