@@ -1,0 +1,4 @@
+R:\PRGV\4D-prg-2324-votypka\4D-Base-library-main\LibraryApp\obj\Debug\net7.0\LibraryApp.GeneratedMSBuildEditorConfig.editorconfig
+R:\PRGV\4D-prg-2324-votypka\4D-Base-library-main\LibraryApp\obj\Debug\net7.0\LibraryApp.AssemblyInfoInputs.cache
+R:\PRGV\4D-prg-2324-votypka\4D-Base-library-main\LibraryApp\obj\Debug\net7.0\LibraryApp.AssemblyInfo.cs
+R:\PRGV\4D-prg-2324-votypka\4D-Base-library-main\LibraryApp\obj\Debug\net7.0\LibraryApp.csproj.CoreCompileInputs.cache
