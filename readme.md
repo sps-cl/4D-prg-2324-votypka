@@ -1,5 +1,5 @@
-# super
-//tohle je uvod do prg neco
+git commands 
+
 
 git pull (pri zmene pracoviste)
 
