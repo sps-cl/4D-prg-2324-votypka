@@ -1,6 +1,5 @@
 git commands 
 
-
 git pull (pri zmene pracoviste)
 
 git add .
