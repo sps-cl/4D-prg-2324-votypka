@@ -10,6 +10,12 @@ namespace LibraryApp
     internal class Library<T> where T : LibraryItem<T>
     {
         List<T> items = new List<T>();
+        public void Add(T item) { 
+
+            items.Add(item);
+        
+        }
+        public void ListItems() { }
 
 
     }
