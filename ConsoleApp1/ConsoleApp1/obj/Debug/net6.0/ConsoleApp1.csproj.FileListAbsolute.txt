@@ -1,0 +1,14 @@
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+R:\PRGV\4D-prg-2324-votypka\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
